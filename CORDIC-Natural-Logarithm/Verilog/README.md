@@ -4,5 +4,5 @@ ADD_SUBT = Floating point Adder/Substractor modules
 
 Natural Logarithm = CORDIC Modules 
 
-UART = Verilog UART Nexys 4
+UART = Verilog UART Nexys 4 Modules
 
