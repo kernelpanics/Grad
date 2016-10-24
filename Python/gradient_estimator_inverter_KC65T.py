@@ -103,7 +103,7 @@ ax=fig1.add_subplot(212)
 #ax.axis([0,stoptime,-15,-11])
 ax.axis([0,stoptime,-13.5,-11])
 ax.set_xlabel('t [s]')
-ax.set_ylabel(r'$\theta_2$')
+ax.set_ylabel(r'$\theta_2$')                    #Theta_2 estimated
 ax.plot(t,wsol[:,1],lw=2)
 ax.plot([0,stoptime],[b, b],'k--',lw=2);
 #with open("Theta_2.txt", "w") as text_file:			#Uncomment to print to txt file wsol(Theta_2) data
