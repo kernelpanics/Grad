@@ -85,10 +85,10 @@ always @(posedge CLK, posedge RST_LN)
 
 ///	
 always @*
-	begin
-	state_next = state_reg;
+    begin
+    state_next = state_reg;
 	
-	EN_REG2 = 0;
+    EN_REG2 = 0;
     EN_REG3 = 0;
     EN_REG4 = 0;
     EN_REG1X = 0;
