@@ -1,1 +1,1 @@
-Python Model Reference (Solar Photovoltaic Panels)
+Python Reference Model (Solar Photovoltaic Panels)
