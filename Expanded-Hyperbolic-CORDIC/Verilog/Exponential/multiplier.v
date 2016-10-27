@@ -35,7 +35,6 @@ module FP_Mul #(parameter P=32, biasSP=8'd127)(
 	//Registros internos
 	reg [47:0] pmTemp;		    //Mantisa
 	reg [7:0] peTemp;	      	    //Exponente
-	reg [22:0] sm;			    //Mantisa después de desplazamiento
 	reg [23:0] xm;			    //Redondeo/Incremento
 	
     always@*
